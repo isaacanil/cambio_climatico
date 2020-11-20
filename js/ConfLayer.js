@@ -28,7 +28,7 @@ function loadCCLayer(){
     var layera = new ol.layer.Tile({
         source: new ol.source.TileWMS({
         attributions: ['Jun'],
-        url: 'http://localhost:8080/geoserver/wms',
+        url: 'http://hidropucmm.eastus2.cloudapp.azure.com/geoserver/geoserver_app/wms',
         params: {'LAYERS': 'geoserver_app:CC_' + layerName + monthNum},
         serverType:'geoserver'
         }),
